@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Adhip Shukla Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Adhip Shukla: <br />
+						Curiosity, Spirituality, Sustainability</h1>
+						<p>A Mechanical Engineer turned Computer Engineer interested in Real-Time Systems Software <a href="https://www.linkedin.com/in/adhip-shukla-242b6012b/" target="_blank">@AdhipShukla</a><br />
+							Love programming in C. Expert in MATLAB, SIMULINK, Stateflow. Learning C++ & Python.</h1> </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="AdhipShukla_CV.pdf" target="_blank" class="logo">Resume</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Recent Work</a></li>
+							<li><a href="generic.html">Automotive Controls</a></li>
+							<li><a href="elements.html">Personal</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/adhip-shukla-242b6012b/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/AdhipShukla" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span style="font-size: 20px; color: #250b36;" class="date">Projects</span>
+									<h2><a>Embedded Linux &<br />
+									Device Drivers</a></h2>
+									<p>This is my current ongoing work where I am learning about Linux, from the booting process and device drivers to file systems. This work is still in progress, and I will add a GitHub link as I make more progress.</p>
+								</header>
+								<a /*href="#"*/ class="image main"><img src="images/Linux4.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a /*href="#"*/ class="button large">WIP</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://github.com/AdhipShukla/STM32-Drivers-And-Test-Applications" target="_blank">STM32 Nucleo Drivers<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/AdhipShukla/STM32-Drivers-And-Test-Applications" target="_blank" class="image fit"><img src="images/STM32.jpg" alt="" /></a>
+									<p>The best way to understand the working of any microcontroller and communication protocol is to thoroughly study the reference manual and datasheets, and devise peripheral APIs from scratch. This project aims to develop bare-metal STM32 (NUCLEO-F411RE) drivers for SPI, I2C, and USART using STM32 Cube IDE. The project includes the development of initialization (Init), de-initialization (De-Init), and data transmission/reception (Send-Receive) functionalities for both Master and Slave configurations. Additionally, the implementation involves creating interrupt handlers and other application-specific APIs for the three protocols. All the APIs were thoroughly tested by establishing communication between STM32 and ESP32.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/AdhipShukla/STM32-Drivers-And-Test-Applications" target="_blank" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/AdhipShukla/Multiprocessor-Thread-Safe-Data-Structures-" target="_blank" >Concurrent Data Structures in C<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/AdhipShukla/Multiprocessor-Thread-Safe-Data-Structures-" target="_blank" class="image fit"><img src="images/Concurr.JPG" alt="" /></a>
+									<p>Memory fetching cycles from memory remain the main problem in CPUs, creating an opportunity for concurrent processing of processes on idle ALUs. This project explores various lock-based, lock-free, and wait-free techniques to ensure the safety of shared memory spaces. The project includes the implementation and comparison of pthread-mutex, TAS and TTAS spin locks, back-off lock, and queue-based MCS & CLH locks. The project also includes the implementation of a lock-free and wait-free FIFO queue. In addition, the project presents a CILK-like work-stealing algorithm using a double-ended lock and lock-free queues, testing its performance for Qsort and Fibonacci numbers for up to 32 threads.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/AdhipShukla/Multiprocessor-Thread-Safe-Data-Structures-" target="_blank" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/AdhipShukla/RTOS-Multi-Threading" target="_blank">Exploring RTOS on ESP32<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/AdhipShukla/RTOS-Multi-Threading" target="_blank" class="image fit"><img src="images/ESP32.JPG" alt="" /></a>
+									<p>The objective of this project is to understand various functionalities and constructs in FreeRTOS, including memory management, scheduling, locks, semaphores, queues, priority inversion, and multicore programming. While there are no off-the-shelf lock-free objects in FreeRTOS, in certain cases, to avoid high contention, lock-free objects can provide better performance. Moreover, they can eliminate the issue of priority inversion, which severely affects binary semaphores and has some effect on mutexes even after priority inheritance. The project provides an implementation of a static (fixed-size) lock-free queue using ESP32's atomic xthal_compare_and_set instruction.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/AdhipShukla/RTOS-Multi-Threading" target="_blank" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/AdhipShukla/Cache-Performance-and-Security" target="_blank">Memory Hierarchy & Caches<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/AdhipShukla/Cache-Performance-and-Security" target="_blank" class="image fit"><img src="images/Cache.JPG" alt="" /></a>
+									<p>This is a group of small project and assignments I did for my computer architecture class. The project includes: <br />
+									1. Cache Performance: Modern out-of-order processors with complicated cache replacement and prefetching techniques make it very difficult to ensure that data is being fetched from a specific memory level. This assignment aims at writing a program in C that employs pointer fetching for the next element in an array with different jump sizes to access specific cache levels.</a></h2><br />
+									2. Spectre Attack: Tested Spectre program with victim and attacker code on different machines and architectures. The assignment aimed at understanding side-channel attacks based on cache evict + fetch techniques. </a></h2><br />
+									3. RRIP Cache Replacement: Developed a re-reference interval prediction cache replacement policy to support the Rocket core in Chisel. The RRIP policy is particularly effective in mixed access patterns where LRU performs poorly due to thrashing.</a></h2>
+									<ul class="actions special">
+										<li><a href="https://github.com/AdhipShukla/Cache-Performance-and-Security" target="_blank" class="button">View Project</a></li>
+									</ul>
+								</article>
+							</section>
+						<style>
+							#Nav ul {
+								list-style: none;
+								padding: 0;
+								margin: 0;
+								text-align: center;
+							}
+							#Nav li {
+								display: inline;
+								margin-right: 50px;
+							}
+							#Nav a {
+									text-decoration: none; /* Optional: Remove underline from links */
+									font-size: 25px; /* Adjust the font size to your preference */
+									color: #250b36; /* Change the color to your preferred hex or color name */
+								}
+						</style>
+						<nav id="Nav">
+							<ul class="links">
+								<li class="active"><a href="index.html">Recent Work</a></li>
+								<li><a href="generic.html">Automotive Controls</a></li>
+								<li><a href="elements.html">Personal</a></li>
+							</ul>
+						</nav>	
+						<!-- Footer -->
+							<footer>
+								<header>
+									<h2>GET IN TOUCH<br />
+
+								</header>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						</section>
+
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<!-- About Me Section -->
+									<div>
+										
+										<img class="image fit" src="images/Adhip12.png" alt="Professional Image">
+										<p style="font-size: 18px; color: #250b36;">
+											Hello! I'm Adhip, a Computer Engineering grad student at Virginia Tech passionate about real-time systems software. 
+											With a diverse background in mechanical engineering, controls, and embedded systems.
+										</p>
+									</div>
+								</div>
+							</form>
+						</section>
+						
+
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>University Terrace, Blacksburg<br />
+								VA, United States 24060</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">+1 (540) 605-0062</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="adhips@vt.edu">adhips@vt.edu</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/adhip-shukla-242b6012b/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/AdhipShukla" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://scholar.google.com/citations?user=4Ri5ey4AAAAJ&hl=en" target="_blank" class="icon brands fa-search"><span class="label">fa-search</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

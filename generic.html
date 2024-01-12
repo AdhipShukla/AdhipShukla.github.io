@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Adhip Shukla Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="AdhipShukla_CV.pdf" target="_blank" class="logo">Resume</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Recent Work</a></li>
+							<li class="active"><a href="generic.html">Automotive Controls</a></li>
+							<li><a href="elements.html">Personal</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/adhip-shukla-242b6012b/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/AdhipShukla" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Featured Post -->
+						<article class="post featured">
+							<header class="major">
+								<h2>Professional Experience<br />
+								</a></h2>
+								<p>In my last full-time role as Lead Vehicle Controls Software Engineer at DORLECO, I worked on over 20 small and large projects over a period of 2.5 years. Check out a brief summary of my work here.</p>
+							</header>
+							<a href="https://dorleco.com/" target="_blank" class="image main"><img src="images/DORLECO.jpg" alt="" /></a>
+							<ul class="actions special">
+								<li><a href="Dorleco_Porjects_Summary.pdf" target="_blank" class="button large">Projects Summary</a></li>
+							</ul>
+						</article>
+				
+					<!-- Posts -->
+						<style>
+							header {
+								text-align: center;
+							}
+						</style>
+						<header>
+							<h2>Vehicle Controls Software & Modelling Personal Projects<br /></h2>
+						</header>
+						<section class="posts">
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Arduino-Based-E-Bike-Supervisory-Software" target="_blank">Custom E-Bike Controls Software<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Arduino-Based-E-Bike-Supervisory-Software" target="_blank" class="image fit"><img src="images/EBike.jpg" alt="" /></a>
+								<p>One of the reasons I entered the EV industry was my passion for sustainable mobility. Instead of using a traditional gasoline vehicle for my commute, I purchased a manual bike and converted it to electric. This was more of a hobby project for me, and the idea was to develop a product that not only helps me commute but also serves as a platform for demonstrating VCU software functionalities. Typically, for small applications like these, a VCU is not preferred. However, I developed VCU software for this E-Bike using an Arduino Mega. I followed the entire V-cycle development process, including writing requirements, developing software architecture, creating software models and algorithms, and conducting MIL/SIL and VIL testing. The software includes all the VCU features such as startup/shutdown, HV relay (36V in this case) control, throttle control, speed modes, cruise control, pedal-assist mode, and basic diagnostics using LED.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Arduino-Based-E-Bike-Supervisory-Software" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/CAN_CANopen_Communication_Stack" target="_blank" >CANOpen Driver in Stateflow<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/CAN_CANopen_Communication_Stack" target="_blank" class="image fit"><img src="images/CANOpen.jpg" alt="" /></a>
+								<p>CANOpen is the preferred protocol in motor drives and material handling equipment, whereas most other automotive ECUs work on the standard CAN/FD protocol. Even though CANOpen uses the same physical and data link layers as CAN, the differences in the application, presentation, and session layers of the OSI model necessitate a different stack for CANOpen. This project aims to develop a stack for a CANOpen-based motor drive unit using Stateflow and Simulink, allowing communication between the motor drive and VCU. The model is based on the CANOpen SDO protocol, which uses one CAN ID for one CANOpen device. The stack provides a request-response architecture based on message priority and the last response from the slave CANOpen device. The stack currently supports three write and 14 read object IDs.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/CAN_CANopen_Communication_Stack" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/Battery_Model_BMS_Algorithm_Dev" target="_blank">Li-Ion Battery Modelling & BMS Algorithms<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/Battery_Model_BMS_Algorithm_Dev" target="_blank" class="image fit"><img src="images/tesla-batt.jpg" alt="" /></a>
+								<p>In 2020, to develop a profound understanding of vehicle systems, I completed the Coursera specialization on BMS. Following the course, I developed an equivalent cell circuit model using open-source Li-ion cell data and system identification techniques. After completing the battery modeling, I developed BMS algorithms based on Kalman filter estimation techniques. Finally, I created battery pack models in Simulink and tested the BMS algorithms.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/Battery_Model_BMS_Algorithm_Dev" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/BLDC_Motor_Trapezoidal_Control" target="_blank">BLDC Motor Controller Modelling<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/BLDC_Motor_Trapezoidal_Control" target="_blank" class="image fit"><img src="images/BLDC.JPG" alt="" /></a>
+								<p>Motor control algorithms are crucial for achieving the expected performance, reliability, and efficiency from motors in traction applications. Unlike brushed motors, which use brushes for commutation and change the direction of the magnetic field, BLDC motors require a rotating magnetic field (RMF). This RMF is achieved by switching the direction of current flow through a three-phase voltage source inverter. This project implements a trapezoidal commutation technique used in BLDC motor control.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/BLDC_Motor_Trapezoidal_Control" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/Power_Electronics_Models" target="_blank">Understading Power Electronics in EV Powertrains<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/Power_Electronics_Models" target="_blank" class="image fit"><img src="images/PowerElectronics.JPG" alt="" /></a>
+								<p>Understanding the complete working of EV powertrains is not possible without comprehending the power electronics that reside in the heart of all motor drive units. In my exploration of EV systems, I took multiple courses on switching converters, learning basics from diodes, MOSFETs, IGBTs to inverters, and their power loss profiles. I also conducted power simulation analyses in LTspice and developed converter models in Simulink. This project includes a collection of some of the models I worked on.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/Power_Electronics_Models" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/HEV_Supervisory_Controls_SW" target="_blank">HEV vs Conventional Powertrain Comparisson<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/HEV_Supervisory_Controls_SW" target="_blank" class="image fit"><img src="images/HEV.jpg" alt="" /></a>
+								<p>For my B.Tech. final year project, I worked on analyzing emission reduction and efficiency improvement by converting a Ford Ikon sedan into a mild hybrid. This was my first solo project using MATLAB/Simulink, and over a period of one year from 2018 to 2019, I developed several conventional and electric powertrain models. Additionally, I ran simulations on AVL Cruise at the university's lab to ensure the accuracy of my Simulink models. The results indicated that powertrain efficiency was improved by up to 2 km/l in an urban drive cycle.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/HEV_Supervisory_Controls_SW" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/EV_Models" target="_blank">EV Modelling Techniques<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/EV_Models" target="_blank" class="image fit"><img src="images/EV1.JPG" alt="" /></a>
+								<p>In the modern vehicle development cycle, modeling and simulation techniques play a crucial role. Powertrain modeling is mostly performed in software like Simulink, which provides various toolboxes that either have component models or offer fundamental blocks to model powertrains. There are many methods to model Electric Vehicles (EVs) in Simulink, and each method has its pros and cons, ranging from faster development time to high-fidelity. In this project, I have explored the development of Simulink equation-based and Simscape models. I ran multiple drive cycle tests to observe the energy consumption (Wh/km) and performance (velocity tracing) characteristics.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/EV_Models" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/EV_Sizing" target="_blank">EV Motor Sizing<br />
+									</a></h2>
+								</header>
+								<a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/EV_Sizing" target="_blank" class="image fit"><img src="images/MotSizing.jpg" alt="" /></a>
+								<p>The first question asked during the development of any electric vehicle (EV) is about its performance and range. Additionally, considerations include determining the powertrain components needed to meet the technical specifications. In many cases, normal back-of-the-envelope calculations are insufficient for accurately sizing the components. Furthermore, not all motor and battery sizes are available in the market, making it necessary to optimize the overall powertrain by selecting a combination of the right motor, gearbox, wheels, and batteries. This project includes a MATLAB script that provides three possible motor curves with different constant torque and power regions based on the vehicle's 0-100 KMPH requirements.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AdhipShukla/Vehicle-Controls-MBD/tree/main/EV_Sizing" target="_blank" class="button">View Project</a></li>
+								</ul>
+							</article>
+						</section>
+						<style>
+							#Nav ul {
+								list-style: none;
+								padding: 0;
+								margin: 0;
+								text-align: center;
+							}
+							#Nav li {
+								display: inline;
+								margin-right: 50px;
+							}
+							#Nav a {
+									text-decoration: none; /* Optional: Remove underline from links */
+									font-size: 25px; /* Adjust the font size to your preference */
+									color: #250b36; /* Change the color to your preferred hex or color name */
+								}
+						</style>
+						<nav id="Nav">
+							<ul class="links">
+								<li class="active"><a href="index.html">Recent Work</a></li>
+								<li><a href="generic.html">Automotive Controls</a></li>
+								<li><a href="elements.html">Personal</a></li>
+							</ul>
+						</nav>	
+					<!-- Footer -->
+						<footer>
+							<header>
+								<h2>GET IN TOUCH<br />
+
+							</header>
+						</footer>
+
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					</section>
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p>University Terrace, Blacksburg<br />
+							VA, United States 24060</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">+1 (540) 605-0062</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="adhips@vt.edu">adhips@vt.edu</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/adhip-shukla-242b6012b/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+								<li><a href="https://github.com/AdhipShukla" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
